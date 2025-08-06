@@ -9,8 +9,6 @@ jobs:
   python:
     runs-on: ubuntu-latest
 
-    python-version: "3.12"
-
     steps:
       - name: Check out source
         uses: actions/checkout@v4
