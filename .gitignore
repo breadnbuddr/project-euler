@@ -13,3 +13,6 @@ __pycache__/
 *.swp
 *.log
 
+# Packaging artefacts
+*.egg-info/
+

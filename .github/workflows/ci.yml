@@ -26,5 +26,5 @@ jobs:
         run: |
           uv venv --seed 
           source .venv/bin/activate
-          uv pip install pytest
+          uv pip install -e ./py pytest
           uv run pytest -q
