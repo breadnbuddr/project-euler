@@ -22,7 +22,7 @@ jobs:
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
 
-        name: Run tests
+      - name: Run tests
         run: |
           uv venv --seed 
           source .venv/bin/activate
