@@ -1,0 +1,15 @@
+# ---- Python ----
+.venv/
+__pycache__/
+.pytest_cache/
+# Lock files
+*.lock
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# ---- General ----
+*.swp
+*.log
+

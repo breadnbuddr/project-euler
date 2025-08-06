@@ -1,0 +1,8 @@
+[project]
+name = "euler"
+version = "0.0.1"
+dependencies = []
+[project.scripts]
+euler = "euler.cli:main"
+[tool.ruff]
+line-length = 100

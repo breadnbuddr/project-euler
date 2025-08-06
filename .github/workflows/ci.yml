@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+
+    python-version: "3.12"
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+            python-version: "3.12"
+
+      - name: Install uv
+        run: |
+          uv venv --seed 
+          source .venv/bin/activate
+          uv pip install pytest
+          uv run pytest -q
