@@ -3,7 +3,7 @@ from euler.problem_007 import solve
 
 def test_problem_007():
     """
-    Test for Problem 007: 10001st prime
+    Test for problem 007: 10001st prime
     """
     assert (
         solve() == 104743
