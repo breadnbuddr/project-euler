@@ -9,7 +9,7 @@ def solve() -> int:
     return lcm
 
 
-def least_common_multiple(a: int, b: int):
+def least_common_multiple(a: int, b: int) -> int:
     """
     Find the least common multiple (lcm) of two integers by using the relationship between lcm and gcd.
     """
