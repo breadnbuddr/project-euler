@@ -7,4 +7,4 @@ def test_problem_011():
     """
     assert (
         solve() == 70600674
-    ), "Expected result for Problem 011: Largest product in a grid is 70600674"
+    ), "Expected result for the largest product in a grid to be 70600674, but got a different value."
