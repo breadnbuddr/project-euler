@@ -70,11 +70,12 @@ def solve() -> int:
     rows = len(grid)
     columns = len(grid[0])
     directions = [
-        (1, 0),  # right
-        (0, 1),  # down
+        (0, 1),  # right
+        (1, 0),  # down
         (1, 1),  # down-right diagonal
         (1, -1),  # down-left diagonal
     ]
+
     max_product = 0
     for row in range(rows):
         for column in range(columns):
