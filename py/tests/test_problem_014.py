@@ -3,7 +3,7 @@ from euler.problem_014 import solve
 
 def test_problem_014():
     """
-    Test for Problem for Problem 014: Longest Collatz sequence
+    Test for Problem 014: Longest Collatz sequence
     """
     assert (
         solve() == 837799
